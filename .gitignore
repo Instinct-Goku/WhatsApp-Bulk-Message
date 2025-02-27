@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Selenium specific
+selenium-screenshots/
+
+# browser specific
+*.chromedriver

@@ -58,9 +58,9 @@ input("Please scan the QR code to log in.")
 
 
 # Read the CSV file containing phone numbers and messages
-with open(file='./wadala-boys.csv', mode='r') as file:
+with open(file='./resources/wadala-boys.csv', mode='r') as file:
     reader = csv.DictReader(file)
-    img_path_list = "D:\hack-scripts\Whatsapp-scripts\wadala.jpeg"
+    img_path_list = "./resources/images/wadala.jpeg"
 
     for row in reader:
         phone_number = row['mobile']
